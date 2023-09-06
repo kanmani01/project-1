@@ -1,0 +1,59 @@
+#profile{
+    border-radius: 50%;
+    width:10%;
+}
+#skill{
+    border-radius:50%;
+    
+}
+.icon-square{
+    border-radius:50% ;
+}
+.main{
+    display:flex;
+    gap:10px;
+    justify-content:space-evenly;
+    align-content:center;
+}
+.nav-item{
+    font-weight: 500;
+}
+.two{
+    text-align: center;
+    
+}
+p{
+    font-family: 'Domine', serif;
+}
+h1{
+    font-family: 'Domine', serif;
+}
+h2{
+    font-family: 'Domine', serif;
+}
+h3{
+    font-family: 'Domine', serif;
+}
+body {
+    background: linear-gradient(300deg, #a0e6fa, #f793cd, #b0f6fc);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+.one>img{
+    height:600px;
+    width:100%;
+}
+@media(max-width:576px) {
+    #page1{
+        height:300px;
+        width:100%;
+    }
+    body {
+        background: linear-gradient(300deg, #27cefc, #e4f88a, #b0f6fc);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite;
+      }
+    
+
+    
+}
